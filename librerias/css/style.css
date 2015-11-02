@@ -1,0 +1,62 @@
+/*ESTILOS MATERIALIZE PERSONALIZADOS*/
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+#header {
+ color:white;
+}
+
+.minav{
+	/*color: #495491;*/
+	color:white;
+}
+
+#mibody{
+ background: #EEEEEE;
+ background-image: url("images/exagon-pattern.png");
+ color:white;
+}
+
+
+#mifooter{
+	color: black;
+	background: black;
+}
+
+
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 44px !important;
+    line-height: 44px !important;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="time"], input[type="date"], input[type="datetime-local"], input[type="tel"], input[type="number"], input[type="search"], textarea.materialize-textarea {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: transparent;
+    border-color: -moz-use-text-color -moz-use-text-color #9e9e9e;
+    border-image: none;
+    border-radius: 0;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    box-shadow: none;
+    box-sizing: content-box;
+    font-size: 1rem !important;
+    height: 2rem !important;
+    margin: 0 0 15px;
+    outline: medium none;
+    padding: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+
+.input-field label.active {
+    font-size: 0.85rem !important;
+    transform: translateY(-140%);
+}
